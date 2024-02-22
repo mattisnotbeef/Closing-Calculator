@@ -1,7 +1,5 @@
 #Calculates amount of cash, leftover cash, checks and adds them all together
 
-import PySimpleGUI as psg
-
 checklist = []
 leftovers = 0
 summy = 0
