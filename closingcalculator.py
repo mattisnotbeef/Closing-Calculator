@@ -17,8 +17,7 @@ while True:
         twentys = twenty * 20
         tens = ten * 10
         fives = five * 5
-        ones = one
-        maths = hundreds + twentys + tens + fives + ones
+        maths = hundreds + twentys + tens + fives + one
         if maths > 200:
             leftovers = maths - 200
             print(f'\nYou need to put {leftovers} dollars in the envelope.\n')
