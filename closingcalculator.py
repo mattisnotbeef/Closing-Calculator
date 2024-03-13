@@ -18,8 +18,8 @@ while True:
         tens = ten * 10
         fives = five * 5
         maths = hundreds + twentys + tens + fives + one
-        if maths > 200:
-            leftovers = maths - 200
+        if maths > 250:
+            leftovers = maths - 250
             print(f'\nYou need to put {leftovers} dollars in the envelope.\n')
         else:
             print(f'\nYou have {maths} dollars. There is no need to put any cash in the envelope.\n')
